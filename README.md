@@ -9,8 +9,11 @@ Folder             | Description
 `2_Design`         |  RUN DESIGN 
 `3_Implementation` |  Circuits simulation
 `4_Test_plan`      |  Simulation
-PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
-40020737| SHUBHAM KUMAR  | BUCK BOOST CONVERTER   |  No     | yes     |4 | 4
+
+
+PS No. |  Name   |    Project name    | 
+
+40020737| SHUBHAM KUMAR  | BUCK BOOST CONVERTER 
 ## Challenges Faced and How Was It Overcome
 
 1. Initialize the  Design of the circuits
