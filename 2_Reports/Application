@@ -1,0 +1,29 @@
+Buck Converter
+A Buck converter is used to step down voltage of the given input in order to achieve required output. Buck converter are mostly used for USB on the go, point of load converters for PCs and laptops, Battery Chargers, Quad Copters, Solar Chargers, power audio amplifier. These converters are designed to have efficiency of 90% or higher, resulting in low power loss.
+
+Buck Converter
+Inductors are critical components in buck and boost circuits. New developments in winding and core technologies are making it advantageous to specify buck and boost inductors at higher power levels, higher frequencies and higher ripple current.
+
+When specifying an inductor for buck, the first item to determine is the minimum inductance. It is done by taking the inductor ripple current into account, the switch ON/OFF switch times, frequency of operation, voltage drop across the rectification (or rectified) device, and the maximum input voltage.
+
+MPS Industries designs these inductors with a wide range of core materials and construction methods based on cost, performance, and size considerations. Inductors have an inherent DC resistance (DCR) which impacts the performance of the output stage. This could also be changed or minimized by winding with different wire types such as magnet wire, litz wire, or Helical edge wound flat wire.
+
+Boost Converter
+A boost converter steps up given DC voltage at the output according to the requirements. Applications for this topology includes hybrid electric circuits, solar power systems, LED driver, LED back light and flash light.
+
+Boost Converter
+Inductors used in Boost converters come in many shapes and sizes, with a wide range of power levels. These requirements determine whether the boost is best designed to operate in CCM or DCM. In DCM, the inductor current ramps up from zero when the switch is on and fully discharged back to zero again before the next switching period. But in a non-synchronous CCM boost, the inductor’s current is always greater than zero when current is ramping up, as well as when ramping down and discharging the inductor’s stored energy into the output capacitor and load.
+
+Inductors could be manufactured/designed with gapped ferrite, powdered cores with distributed air gap, or amorphous cores in various shapes and sizes. While these are clearly not the only alternatives for this type of inductor, they are the most favorable when the design objective is to develop the smallest and lowest cost alternative for medium to high power and operating at high ripple values at frequencies above 10 kHz. The choice of core requires an examination of a number of variables including loss density, saturation flux density, and cost. Amorphous, nanocrystalline, MPP, etc. cores are notably more expensive than the ferrite and powdered cores. Similarly, litz wire is significantly more expensive than solid wire and copper foil. Heat dissipation is also a significant factor in determining which combination of materials is best.
+
+We make sure inductances are met for each of the custom designs and losses are determined by summing core losses, as well as AC/DC winding losses.
+
+Inverting Buck-Boost Converter
+Negative voltages are needed in many electronic designs. A very easy and low-cost method of obtaining the negative voltage is the polarity-inverting topology.
+
+Inverting Buck-Boost Converter
+The polarity inverting buck-boost converter is a very basic power conversion topology like the buck topology and the boost topology. Each of these basic topologies is built with one active switch, a passive switch (a diode) and an inductor. The simplicity of the polarity-inverting topology is one of its biggest advantages. This topology needs very few power stage components thereby reducing the cost and development complexity. So, polarity inverting topology reverses the polarity of the input voltage but allows the output voltage to be higher or lower than the absolute of the input voltage.
+
+Compared to the buck and the boost topologies, the inverting topology has the main energy storing element, the inductor, connected between the switch node and ground. The inductor always prevents current from changing instantaneously.
+
+Hence the inductor silences the noise on a specific node. The polarity-inverting topology is noisy on the input side as well as on the output side. Noisy nodes require good capacitive filtering to reduce the ripple voltage. In the polarity-inverting topology, both, the input node as well as the output node require capacitors to minimize voltage ripple and noise.
