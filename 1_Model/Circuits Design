@@ -1,1 +1,29 @@
-
+    
+      Circuits Design 
+      
+       parameters                                value
+       MOSFET   
+           1.FET resistance                      0.1
+           2.internal diode                      0.01
+           3.snubber resistance                  1e5
+           4.snubber capaciance                  inf
+       DIODE
+            1.Resistance                        0.001
+            2. Forward voltage                  0.8
+            3.snubber resustance                500
+            4.snubbber capaciance               250e-9
+       CURRENT MEASUREMENT                      i
+       VOLTAGE MEASUREMENT                       v
+       POWER CONTINUOUS                         input power
+       PULSE GENERATOR 
+                1.Amplitude                       1
+                2.period                        4e-5
+                3.Pulse Width                    55.55
+       DISPLAY                                  output meter
+       RESISTOR                                 50 ohm
+       INDUCTOR                                 120e*3 H
+       CAPACITOR                                498e-6 F
+       INPUT VOLTAGE                            12 V 
+       RPM
+       SCOPE 
+       
