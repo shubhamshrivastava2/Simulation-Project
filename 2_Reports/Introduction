@@ -1,1 +1,73 @@
 
+                                                                            DC-DC CONVERTER                                                 
+                   
+  A chopper is a static device which is used to obtain a  variable dc voltage from a constant dc voltage source Avariable dc voltage from a constant dc voltage source. 
+  A  chopper is also known as dc‐to‐dc converter. The  thyristor converter offers greater efficiency, faster  response, lower maintenance, smaller size and smooth  control Choppers
+  are widely used in trolley carscontrol. Choppers are widely used in trolley cars,  battery operated vehicles, traction motor control,  control of large nu.
+  They are  also used in regenerative braking of dc motors to return  energy back to supply and also as dc voltage regulatorsenergy back to supply and also as dc voltage regulators
+  
+    Unidirectional Converters: They cater to various onboard loads such as sensors,
+controls, entertainment, utility and safety equipments.
+ Bidirectional Converters: They are used in places where battery charging and
+regenerative braking is required. The power flow in a bi-directional converter is
+usually from a low voltage end such as battery or a supercapacitor to a high
+voltage side and is referred to as boost operation. During regenerative braking,
+the power flows back to the low voltage bus to recharge the batteries know as
+buck mode operation.
+Both the unidirectional and bi-directional DC-DC converters are preferred to be isolated
+to provide safety for the lading devices. In this view, most of the DC-DC converters
+incorporate a high frequency transformer.
+Classification of Converters
+The converter topologies are classified as:
+ Buck Converter: In Figure 2a a buck converter is shown. The buck converter is
+step down converter and produces a lower average output voltage than the dc
+input voltage.
+ Boost converter: In Figure 2b a boost converter is shown. The output voltage is
+always greater than the input voltage.
+ Buck-Boost converter: In Figure 2c a buck-boost converter is shown. The
+output voltage can be either higher or lower than the input voltage.
+      
+       It’s a power electronics project. It is able to give output voltage(DC) more and less than input voltage as per requirement.
+We can generate variable DC voltage which is less than input, but, the special things about this converter is, it has capability to produce variable DC voltage as high as twice the input voltage.
+We have specially designed and manufactured inductor for this project.
+ 
+    OPERATION OF POWER CIRCUIT  Step 1: when mosfet is ON  Voltage across inductor L is equal to V (source voltage)
+                                Step 2: when mosfet is OFF  Voltage across inductor L is equal to Vo (in reverse direction)  Here output voltage developed across load is Vo
+                                Step  3: When mosfet is ON in next cycle Load is isolated from voltage source In this case charged capacitor across load will maitain
+                                         voltage across load
+                                         
+                                         
+         APPLICATIONS 
+         1.Used in many industrial applications such as subway cars, trolley buses, battery operated vehicles, battery charging etc.
+         2.To provide smooth control on output, high efficiency, fast response and regeneration.  To provide efficient control on dc motor operation
+         3.To provide long life and less maintenance due to absence of moving parts.              
+   
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+  
