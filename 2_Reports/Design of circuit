@@ -1,1 +1,28 @@
 
+                                                            
+                                                            Circuit Components 
+   
+   
+   Components                                          value
+   MOSFET 
+          a.FET resistance                                0.1
+          b.internal Diode                                0.01
+          c.Snubber Resistance                            1*e5
+          d. snubber Capacitance                            inf
+   Diode  
+         a.resisance                                      0.001
+         b.forward Voltage                                0.8 v
+        c.snubber Resisrance                              500
+        d.Snubber Capacitance                            250e-9
+  Current Measurement                                    i
+  Voltage Measurement                                    v
+  power continuous    
+  Inducor                                               120e-3 H
+  Resisor                                               50 ohm
+ Capacitor                                               48e-6 F
+   pulse Generator  
+        a.AMPLIUDE                                        1 v
+        B.Period                                        4*e-5
+        c.Pulse Width                                  55.55
+  input Voltage                                         12 v
+  RMP 
