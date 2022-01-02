@@ -1,1 +1,33 @@
 
+
+
+ Designing a Buck Converter
+STEP – 1
+
+Determine the input voltage and the output voltage and current.
+
+The duty cycle of the converter is given by:
+
+DC = Vout/Vin
+
+STEP – 2
+
+Determine the output power, that is, the product of the output voltage and current. This is also the input power, by the law of conservation of energy (though not exactly so – nothing is a hundred percent efficient!).
+
+STEP - 3
+
+Now divide the output power by the selected switching frequency in order to get the power transferred per pulse.
+
+Since it is easier to talk about inductors in terms of energy, we can assume now that the output power is simply the output energy per second. So if the output of our converter is 30 Watts, then we can say that the output energy is thirty Joules every second.
+
+STEP - 4
+
+Now that we have the energy per pulse, we can calculate the inductance using the input current and the energy:
+
+L = 2E/I2
+
+Where E is the energy transferred per pulse and I is the square of the input current.
+
+Using the values of the inductance, frequency and duty cycle, we can now get to work building a simple boost converter.
+
+ 
